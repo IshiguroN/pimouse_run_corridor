@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find mymouse_ros)/launch/mymouse.launch" />
+  <node pkg="mymouse_line_trace" name="line_trace" type="line_trace.py" required="true" />
+
+</launch>
