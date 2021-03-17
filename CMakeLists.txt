@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
+<<<<<<< HEAD
 project(mymouse_line_trace)
+=======
+project(pimouse_run_corridor)
+>>>>>>> 1da55309c1d47f33d36bfef29e8bd4a653ac34db
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -100,7 +104,11 @@ find_package(catkin REQUIRED)
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
+<<<<<<< HEAD
 #  LIBRARIES mymouse_line_trace
+=======
+#  LIBRARIES pimouse_run_corridor
+>>>>>>> 1da55309c1d47f33d36bfef29e8bd4a653ac34db
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
@@ -118,7 +126,11 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
+<<<<<<< HEAD
 #   src/${PROJECT_NAME}/mymouse_line_trace.cpp
+=======
+#   src/${PROJECT_NAME}/pimouse_run_corridor.cpp
+>>>>>>> 1da55309c1d47f33d36bfef29e8bd4a653ac34db
 # )
 
 ## Add cmake target dependencies of the library
@@ -129,7 +141,11 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
+<<<<<<< HEAD
 # add_executable(${PROJECT_NAME}_node src/mymouse_line_trace_node.cpp)
+=======
+# add_executable(${PROJECT_NAME}_node src/pimouse_run_corridor_node.cpp)
+>>>>>>> 1da55309c1d47f33d36bfef29e8bd4a653ac34db
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -186,7 +202,11 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
+<<<<<<< HEAD
 # catkin_add_gtest(${PROJECT_NAME}-test test/test_mymouse_line_trace.cpp)
+=======
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_pimouse_run_corridor.cpp)
+>>>>>>> 1da55309c1d47f33d36bfef29e8bd4a653ac34db
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

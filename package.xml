@@ -1,8 +1,14 @@
 <?xml version="1.0"?>
 <package>
+<<<<<<< HEAD
   <name>mymouse_line_trace</name>
   <version>0.0.0</version>
   <description>The mymouse_line_trace package</description>
+=======
+  <name>pimouse_run_corridor</name>
+  <version>0.0.0</version>
+  <description>The pimouse_run_corridor package</description>
+>>>>>>> 1da55309c1d47f33d36bfef29e8bd4a653ac34db
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -19,14 +25,22 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
+<<<<<<< HEAD
   <!-- <url type="website">http://wiki.ros.org/mymouse_line_trace</url> -->
+=======
+  <!-- <url type="website">http://wiki.ros.org/pimouse_run_corridor</url> -->
+>>>>>>> 1da55309c1d47f33d36bfef29e8bd4a653ac34db
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
   <!-- Authors do not have to be maintainers, but could be -->
   <!-- Example: -->
+<<<<<<< HEAD
   <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
   <author email="ishiguro-naoya@hiroshima-u.ac.jp">NaoyaIshiguro</author>
+=======
+  <author email="ishiguro-naoya@hiroshima-u.ac.jp">NaoyaIshiguro</author> -->
+>>>>>>> 1da55309c1d47f33d36bfef29e8bd4a653ac34db
 
 
   <!-- The *depend tags are used to specify dependencies -->
@@ -50,7 +64,11 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
+<<<<<<< HEAD
   <run_depend>mymouse_ros</run_depend>
+=======
+  <run_depend>pimouse_ros</run_depend>
+>>>>>>> 1da55309c1d47f33d36bfef29e8bd4a653ac34db
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
